@@ -12,4 +12,5 @@ RUN     chmod +x /usr/local/bin/install-php-extensions \
             apcu \
             memcached \
             redis \
+            shmop \
         && mv "$PHP_INI_DIR/php.ini-production" "$PHP_INI_DIR/php.ini"
