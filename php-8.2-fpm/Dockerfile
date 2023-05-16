@@ -11,6 +11,8 @@ RUN     chmod +x /usr/local/bin/install-php-extensions \
         && install-php-extensions \
             apcu \
             memcached \
+            opentelemetry \
+            protobuf \
             redis \
             shmop \
         && mv "$PHP_INI_DIR/php.ini-production" "$PHP_INI_DIR/php.ini"
