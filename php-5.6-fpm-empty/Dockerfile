@@ -13,7 +13,4 @@ RUN     chmod +x /usr/local/bin/install-php-extensions \
             pdo_mysql \
             mysqlnd \
             mysql \
-            apcu \
-            memcached \
-            redis \
         && mv "$PHP_INI_DIR/php.ini-production" "$PHP_INI_DIR/php.ini"
